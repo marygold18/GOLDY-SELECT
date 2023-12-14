@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+header{
+    background: rgba(252, 6, 6, 0.95);
+    width: 100%;
+}
+.container{
+    margin: auto 10%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.container .logo{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.container .logo span{
+    color: #d83810;
+}
+.container .nav{
+    display: flex;
+}
+.nav .nav-item{
+    margin: auto 10px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav .nav-item .nav-link{
+    color: #fff;
+}
+.nav .nav-item .nav-link:hover{
+    color: #15922a;
+}
+.container .button{
+    border: 2px solid #1c831c;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: #25f575;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .button:hover{
+    background: #0f0f0f;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+.main{
+    height: 87.9vh;
+    background-image: url(mary.jpg);
+    background-position: right;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 100px 0 120px;
+}
+.main .content{
+    max-width: 500px;
+    letter-spacing: 1px;
+}
+.content h2{
+    font-size: 3em;
+}
+.content h2 span{
+    color: rgba(64, 10, 151, 0.95);
+}
+.content h3{
+    font-size: 2em;
+}
+.content p{
+    padding: 10px 0 40px 0;
+    line-height: 20px;
+    font-size: 20px;
+}
+.content .btn-group a{
+    color: #fff;
+    padding: 15px 30px;
+    background-color: rgba(35, 180, 22, 0.95);
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .btn-group a:hover{
+    background-color: #4b25f5;
+    transition: all 0.5s ease-in;
+}
